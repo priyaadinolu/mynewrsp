@@ -5,11 +5,11 @@
        - name: i want to install apache on ubuntu server
          apt: 
              name: apache2
-             state: present 
+             state: absent 
          when: ansible_os_family--"radhat" 
        - name: i want to start webserver on ubuntu server
          apt: 
              name: apache2
-             state: started
+             state: present
          when: ansible_os_family--"radhat" 
         
