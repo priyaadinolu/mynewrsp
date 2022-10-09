@@ -5,5 +5,5 @@
        - name: i want to install apache on ubuntu server
          apt: 
              name: apache2
-             state: present 
+             state: present
         
